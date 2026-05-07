@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /signin
+Disallow: /signup
+Disallow: /forgot-password
+Disallow: /reset/
+
+Sitemap: https://brickbyte.vercel.app/sitemap.xml

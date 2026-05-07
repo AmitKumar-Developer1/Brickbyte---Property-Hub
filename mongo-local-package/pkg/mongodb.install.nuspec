@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>mongodb.install</id>
+    <version>8.2.7</version>
+    <title>MongoDB (Install)</title>
+    <authors>MongoDB Inc</authors>
+    <owners>Maurice Kevenaar</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://www.mongodb.com/legal/licensing/community-edition</licenseUrl>
+    <projectUrl>http://www.mongodb.org/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/mkevenaar/chocolatey-packages@4106c5776d3ca53c63912a20b56fc3b41a535a43/icons/mongodb.png</iconUrl>
+    <description>MongoDB (from "humongous") is a scalable, high-performance, open source NoSQL database written in C++.
+
+MongoDB stores data using a flexible document data model that is similar to JSON. Documents contain one or more fields, including arrays, binary data and sub-documents. Fields can vary from document to document. This flexibility allows development teams to evolve the data model rapidly as their application requirements change.
+
+Developers access documents through rich, idiomatic drivers available in all popular programming languages. Documents map naturally to the objects in modern languages, which allows developers to be extremely productive. Typically, there’s no need for an ORM layer.
+
+#### Package Parameters
+
+The following package parameters can be set:
+
+* `/dataPath:` - where MongoDB stores its database files - defaults to "$env:ProgramData\MongoDB\data\db"
+* `/logPath:` - where MongoDB stores its logs - defaults to "$env:ProgramData\MongoDB\log"
+
+To pass parameters, use `--params "''"` (e.g. `choco install packageID [other options] --params="'/ITEM:value /ITEM2:value2 /FLAG_BOOLEAN'"`).
+To have choco remember parameters on upgrade, be sure to set `choco feature enable -n=useRememberedArgumentsForUpgrades`.
+
+**Please Note**: This is an automatically updated package. If you find it is
+out of date by more than a day or two, please contact the maintainer(s) and
+let them know [here](https://github.com/mkevenaar/chocolatey-packages/issues) that the package is no longer updating correctly.</description>
+    <summary>Scalable, high-performance, open source NoSQL database written in C++</summary>
+    <releaseNotes>https://docs.mongodb.org/master/release-notes/8.2/</releaseNotes>
+    <copyright>MongoDB Inc</copyright>
+    <tags>cli database nosql admin</tags>
+    <projectSourceUrl>https://github.com/mongodb/mongo</projectSourceUrl>
+    <packageSourceUrl>https://github.com/mkevenaar/chocolatey-packages/tree/master/automatic/mongodb.install</packageSourceUrl>
+    <docsUrl>https://www.mongodb.com/docs/</docsUrl>
+    <mailingListUrl>https://groups.google.com/forum/#!forum/mongodb-user</mailingListUrl>
+    <bugTrackerUrl>https://github.com/mongodb/mongo/wiki/Submit-Bug-Reports</bugTrackerUrl>
+    <dependencies>
+      <dependency id="KB2999226" version="1.0.20181019" />
+    </dependencies>
+  </metadata>
+</package>

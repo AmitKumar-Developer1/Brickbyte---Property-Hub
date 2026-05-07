@@ -1,0 +1,32 @@
+services:
+  mongo:
+    image: mongo:7
+    container_name: brickbyte-mongo
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - brickbyte_mongo_data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand('ping').ok"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build: .
+    container_name: brickbyte-backend
+    depends_on:
+      mongo:
+        condition: service_healthy
+    ports:
+      - "4000:4000"
+    env_file:
+      - ./.env.local
+    environment:
+      MONGO_URI: mongodb://mongo:27017/brickbyte
+    volumes:
+      - ./:/app
+
+volumes:
+  brickbyte_mongo_data:
