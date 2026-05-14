@@ -844,15 +844,15 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 ### Amit Kumar
 
-[![GitHub](https://img.shields.io/badge/@AAYUSH412-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AAYUSH412)
+[![GitHub](https://img.shields.io/badge/@AAYUSH412-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AmitKumar-Developer1)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=firefox&logoColor=white)](https://aayush-vaghela.vercel.app/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aayushvaghela412@gmail.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amitsse11@gmail.com)
 
 <br/>
 
 If this project helped you, please give it a ⭐
 
-[![Star](https://img.shields.io/github/stars/AAYUSH412/Real-Estate-Website?style=for-the-badge&logo=github&color=FFD700)](https://github.com/AAYUSH412/Real-Estate-Website)
+[![Star](https://img.shields.io/github/stars/AAYUSH412/Real-Estate-Website?style=for-the-badge&logo=github&color=FFD700)]([https://github.com/AAYUSH412/Real-Estate-Website](https://github.com/AmitKumar-Developer1)
 
 </div>
 
