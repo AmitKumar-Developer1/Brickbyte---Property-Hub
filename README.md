@@ -842,7 +842,7 @@ MIT License — see [LICENSE](LICENSE) for details.
 
   <img src="https://avatars.githubusercontent.com/AAYUSH412" width="100" style="border-radius:50%"/>
 
-### Aayush Vaghela
+### Amit Kumar
 
 [![GitHub](https://img.shields.io/badge/@AAYUSH412-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AAYUSH412)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=firefox&logoColor=white)](https://aayush-vaghela.vercel.app/)
